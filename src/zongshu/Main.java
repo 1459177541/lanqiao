@@ -6,7 +6,7 @@ import java.util.TreeMap;
 
 public class Main {
 
-    private static Map<Integer, Integer> map = new TreeMap<>();
+    private static Map<Integer, Integer> map = new TreeMap<Integer, Integer>();
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
