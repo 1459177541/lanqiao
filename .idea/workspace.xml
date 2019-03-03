@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0da05cc7-b074-45f3-a6ca-9b20cea9cda2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/shengqifans/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shulieyouxu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,12 +15,15 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/shengqifans/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="533">
+              <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
+                <element signature="e#770#771#0" expanded="true" />
+                <element signature="e#1944#1945#0" expanded="true" />
+                <element signature="e#2006#2007#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,6 +53,8 @@
         <option value="$PROJECT_DIR$/src/erchashu/Main.java" />
         <option value="$PROJECT_DIR$/src/shulieyouxu/Main.java" />
         <option value="$PROJECT_DIR$/src/shengqifans/Main.java" />
+        <option value="$PROJECT_DIR$/src/fuyuanip/Main.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/Main.java" />
       </list>
     </option>
   </component>
@@ -67,8 +71,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,6 +107,12 @@
               <item name="lanqiao" type="b2602c69:ProjectViewProjectNode" />
               <item name="lanqiao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lanqiao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lanqiao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="shengqifans" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -132,10 +142,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551619146899" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551626029346" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsDialog.application.dockerMachine" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -149,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="shengqifans.Main" />
       <module name="lanqiao" />
@@ -163,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dumuqiao.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Main" />
       <module name="lanqiao" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dumuqiao.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,19 +227,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +257,8 @@
       <workItem from="1543492391595" duration="7337000" />
       <workItem from="1543505122036" duration="2070000" />
       <workItem from="1543552974852" duration="1831000" />
-      <workItem from="1551615315629" duration="3707000" />
+      <workItem from="1551615315629" duration="4910000" />
+      <workItem from="1551620307256" duration="5026000" />
     </task>
     <task id="LOCAL-00001" summary="忽略配置信息">
       <created>1543420338554</created>
@@ -290,11 +302,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543554726747</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="刷题...">
+      <created>1551619152106</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1551619152106</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18008000" />
+    <option name="totallyTimeSpent" value="24237000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -307,6 +326,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -314,7 +334,6 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" weight="0.32969433" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286026" />
@@ -328,18 +347,19 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32896176" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005348" side_tool="true" weight="0.3995633" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286026" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" sideWeight="0.500813" side_tool="true" visible="true" weight="0.2593583" />
+      <window_info anchor="bottom" id="Docker" order="13" weight="0.32969433" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="4" sideWeight="0.499187" visible="true" weight="0.2593583" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="4" sideWeight="0.49756098" visible="true" weight="0.2620321" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="11" sideWeight="0.502439" side_tool="true" visible="true" weight="0.2620321" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,10 +464,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/shengqifans/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="558">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///etc/jdk-11/lib/src.zip!/java.desktop/javax/swing/tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+          <folding>
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#1944#1945#0" expanded="true" />
+            <element signature="e#2006#2007#0" expanded="true" />
           </folding>
         </state>
       </provider>
